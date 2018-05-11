@@ -1,0 +1,30 @@
+{
+  "name": "loadsaverls",
+  "version": "0.0.1",
+  "description": "Load and Save text and JSON files in a browser environment - design to create WebApp with ClassEditorUML",
+  "main": "src/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jshint src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niebert/LoadSaverLS.git"
+  },
+  "keywords": [
+    "Load",
+    "Save",
+    "text",
+    "files",
+    "browser",
+    "environment"
+  ],
+  "author": "Engelbert Niehaus - build on Eli Greys FileSaver.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niebert/LoadSaverLS/issues"
+  },
+  "homepage": "https://github.com/niebert/LoadSaverLS#readme"
+}
