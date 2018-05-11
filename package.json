@@ -3,11 +3,23 @@
   "version": "0.0.1",
   "description": "Load and Save text and JSON files in a browser environment - design to create WebApp with ClassEditorUML",
   "main": "src/main.js",
+  "inherit": "InheritTest",
   "directories": {
     "doc": "docs"
   },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "concat-files": "^0.1.1",
+    "doctoc": "^1.3.0",
+    "lint": "^1.1.2",
+    "uglify-js": "^2.6.2",
+    "watchify": "^3.9.0"
+  },
   "scripts": {
-    "test": "jshint src/main.js"
+    "watch": "watchify src/main.js -o dist/loadsaverls.js -v",
+    "build4main": "browserify src/main.js  | uglifyjs -mc warnings=false > dist/loadsaverls.min.js",
+    "test": "jshint dist/loadsaverls.js",
+    "build": "node build.js; uglifyjs dist/loadsaverls.js --compress -o dist/loadsaverls.min.js"
   },
   "repository": {
     "type": "git",
