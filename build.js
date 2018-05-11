@@ -34,7 +34,7 @@ vHeader += "\n Homepage: "+pkg.homepage;
 vHeader += "\n Author:   "+pkg.author;
 vHeader += "\n License:  "+pkg.license;
 if (pkg.hasOwnProperty("inherit")) {
-  vHeader += "\n// Inheritance: '"+vExportVar+"' inherits from '"+pkg.inherit+"'";
+  vHeader += "\n Inheritance: '"+vExportVar+"' inherits from '"+pkg.inherit+"'";
 };
 vHeader += "\n Require Module with:";
 vHeader += "\n    const "+vExportVar+" = require('" + pkg.name+ "');";
