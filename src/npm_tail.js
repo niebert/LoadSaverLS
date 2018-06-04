@@ -5,7 +5,7 @@
  Homepage: https://github.com/niebert/LoadSaverLS#readme
  Author:   Engelbert Niehaus - build on Eli Greys FileSaver.js
  License:  MIT
-// Inheritance: 'LoadSaverLS' inherits from 'InheritTest'
+ Inheritance: 'LoadSaverLS' inherits from 'InheritTest'
  Require Module with:
     const LoadSaverLS = require('loadsaverls');
     var  vLoadSaverLS = new LoadSaverLS(document);
